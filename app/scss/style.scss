@@ -217,5 +217,34 @@
         }
     }
 }  
-
 //end products
+//start products-slider
+.product-slider{
+    padding: 110px 0px 120px;
+    .slick-dots{
+        text-align: center;
+        li{
+            display: inline-block;
+            margin:0 3px;
+            cursor: pointer;
+            &.slick-active{
+                button{
+                    background-color: $green;
+                }
+            }
+            button{
+                border-radius: 50%;
+                background-color: rgb(232, 232, 232);
+                border: none;
+                font-size: 0;
+                height: 16px;
+                width: 16px;
+                outline: none;
+            }
+            
+        } 
+    }
+}
+  
+
+//end products-slider
